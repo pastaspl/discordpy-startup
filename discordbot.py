@@ -158,4 +158,4 @@ async def on_message(message):
 
 
 
-client.run("NzI0OTYzNjI1MDYzOTQwMTM2.XvH1Eg.CMde-C3mR8VwOriv9Bj_Qdej5-0")
+client.run('DISCORD_BOT_TOKEN')
