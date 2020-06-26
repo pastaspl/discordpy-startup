@@ -2,6 +2,8 @@ import discord
 from discord.ext import commands
 import random
 
+token = os.environ['DISCORD_BOT_TOKEN']
+
 buki_list = ['わかばシューター',
 'もみじシューター',
 'おちばシューター',
@@ -158,4 +160,4 @@ async def on_message(message):
 
 
 
-client.run('DISCORD_BOT_TOKEN')
+client.run(token)
